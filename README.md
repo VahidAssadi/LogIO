@@ -49,10 +49,10 @@ public class MyService : IMyService
 Override per method:
 ```csharp
 [LogIO(Level = LogLevel.Warning, LogOutput = false)]
-    public async Task<SampleResult> DoAsync(SampleInput input)
-    {
-        // ...
-    }
+public async Task<SampleResult> DoAsync(SampleInput input)
+{
+    // ...
+}
 ```
 
 ## Defaults and behavior
@@ -72,6 +72,3 @@ Override per method:
 ## Target frameworks
 - `netstandard2.0`
 - `net8.0`
-
-## License
-Add your license here.
